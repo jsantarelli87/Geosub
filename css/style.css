@@ -54,6 +54,14 @@ z-index: 1;
     padding:110px 0;
 }
 
+.section.portifolio{
+    padding:0;
+}
+
+.section.portifolio .container-fluid{
+    padding:0;
+}
+
 .section img{
     display: block;
     width: 100%;
@@ -86,6 +94,14 @@ z-index: 1;
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
+}
+
+.section p.text{
+    text-transform: initial;
+    color: #2d2d2d;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
 }
 
 .section p.number{
